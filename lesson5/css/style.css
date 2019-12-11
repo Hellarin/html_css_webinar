@@ -1,0 +1,584 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1280px;
+    height: 323px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.main-header {
+    width: 100%;
+    min-height: 323px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #445162;
+}
+
+.main-header-wrapper {
+    float: left;
+}
+
+.main-header-title {
+    margin: 0;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.main-header-list {
+    list-style-type: none;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+
+.main-header-list-item {
+    position: relative;
+}
+
+.main-header-list-item:before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 19px;
+    position: absolute;
+    top: 7px;
+    left: -37px;
+    background-image: url('https://img.icons8.com/color/48/000000/checkmark.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-header-product-photo {
+    display: block;
+    background-color: #ffffff;
+    width: 469px;
+    height: 214px;
+    float: right;
+}
+
+.about {
+    width: 100%;
+    min-height: 323px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.about-wrapper {
+    margin: 0px;
+    width: 648px;
+    height: 210px;
+    float: left;
+}
+
+.about-header {
+    margin: 0;
+    width: 254px;
+    height: 28px;
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.about-item {
+    margin: 0 auto;
+    width: 649px;
+    min-height: 63px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+    width: 655px
+}
+
+.about-video {
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    float: right;
+}
+
+.plusses {
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    min-height: 415px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    flex-wrap: wrap;
+}
+
+.plusses:after {
+    content: "";
+    width: 100%;
+    display: block;
+    clear: both;
+}
+
+.plusses-header {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    margin: 0 0px 30px 0px
+}
+
+.plusses-item {
+    width: 50%;
+}
+
+.plusses-item-p {
+    padding: 0 0 0 40px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400px;
+    color: #333333;
+}
+
+.plusses-item-p::before {
+    content: "+";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+    position: relative;
+    top: 34px;
+    left: -38px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 28px;
+}
+
+.screenshots {
+    width: 100%;
+    min-height: 415px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.screenshots:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.screenshots-header {
+    margin: 0 0 30px 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400px;
+    color: #445161;
+}
+
+.screenshots-img {
+    width: 200px;
+    height: 150px;
+    background-color: #445161;
+    float: left;
+}
+
+.screenshots-item {
+    margin: 0;
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 30px
+}
+
+.screenshots-item :nth-child(1) {
+    margin: 0 10px 0 0;
+}
+
+.screenshots-item-header {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445161;
+}
+
+.screenshots-item-p {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400px;
+    color: #333333;
+    margin: 10px 0 0 0;
+    width: 359px;
+    height: 108px;
+    float: right;
+
+}
+
+.reviews {
+    width: 100%;
+    min-height: 415px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reviews-header {
+    margin: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    height: 36px;
+    color: #445161;
+}
+
+.reviews-item {
+    box-sizing: border-box;
+}
+
+.reviews-photo {
+    width: 75px;
+    height: 75px;
+    background-color: #445161;
+    border-radius: 50%;
+    float: left;
+}
+
+.reviews-photo:nth-child(2) {
+    margin: 0 0 0 10px;
+}
+
+.reviews-p {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    width: 480px;
+    height: 121px;
+    padding: 10px;
+    margin: 0 0 0 90px;
+    box-sizing: border-box;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+    font-style: italic;
+}
+
+.reviews-p::before {
+    content: "";
+    display: block;
+    border: 1px solid black;
+    position: absolute;
+    top: 25px;
+    left: -29px;
+    border: 15px solid transparent;
+    border-right: 15px solid #ebebeb;
+}
+
+.reviews-autor {
+    font-family: ArialMT;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #989898;
+}
+
+.buy {
+    width: 100%;
+    min-height: 656px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.buy-title {
+    margin: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    height: 36px;
+    color: #445161;
+}
+
+.buy-item {
+    width: 30%;
+    border-radius: 3%;
+    background-color: #445162;
+}
+
+.buy-item-tarif {
+    display: block;
+    font-family: Aria;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 20px 105px 20px 105px;
+}
+
+.buy-item-list {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    list-style-position: inside
+}
+
+.buy-item-price {
+    display: flex;
+    height: 71px;
+    border: 2px solid #445162;
+    background-color: #ffffff;
+    line-height: 100px;
+    vertical-align: center;
+    text-align: center;
+}
+
+.buy-price {
+    font-family: Arial;
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445162;
+    margin: auto;
+}
+
+.buy-href-button {
+    display: flex;
+    width: 260;
+    height: 40px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    color: #445161;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.buy-href-button:hover {
+    background-color: #F8F8F8;
+    border: 1px solid #384049;
+}
+
+.buy-href-button:active {
+    background-color: #BABABA;
+}
+
+.buy-button {
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #445161;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    min-height: 323px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #445162;
+}
+
+.footer-title {
+    display: block;
+    width: 100%;
+    margin: 0 0 30px 0;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.footer-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    margin: 0 46px 0 0;
+}
+
+.footer-form input[type="text"],
+.footer-form input[type="email"],
+.footer-form textarea {
+    width: 100%;
+    height: 40px;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162;
+    outline: none;
+}
+
+.footer-form textarea {
+    width: 500px;
+    height: 170px;
+    background-color: #ffffff;
+    outline: none;
+}
+
+.footer-form input[type="submit"] {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 140px;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    outline: none;
+}
+
+.contacts {
+    width: 160px;
+}
+
+.contacts span {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.contacts {
+    display: block;
+    padding: 0 0 0 15px;
+    position: relative;
+}
+
+.contacts-social:before {
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+.skype:before {
+    background-image: url(../img/skype.png);
+    top: 2px;
+    left: -14px;
+    width: 24px;
+    height: 26px;
+}
+
+.isq:before {
+    background-image: url(../img/icq.png);
+    top: 35px;
+    left: -14px;
+    width: 26px;
+    height: 26px;
+}
+
+.mail:before {
+    background-image: url(../img/email.png);
+    width: 22px;
+    height: 22px;
+    top: 68px;
+    left: -14px;
+}
+
+.phone:before {
+    background-image: url(../img/phone.png);
+    width: 24px;
+    height: 23px;
+    top: 97px;
+    left: -14px;
+}
+
+.social {
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0 0;
+}
+
+.social-icon {
+    display: block;
+    width: 44px;
+    height: 42px;
+    background-image: url(../img/social.png);
+}
+
+.social-icon:nth-child(1) {
+    background-position: 240px 0px;
+}
+
+.social-icon:nth-child(2) {
+    background-position: -49px 0px;
+}
+
+.social-icon:nth-child(3) {
+    background-position: -338px 0px;
+}
+
+.social-icon:nth-child(4) {
+    background-position: -388px 0px;
+}
+
+.social-icon:nth-child(5) {
+    background-position: -437px 0px;
+}
+
+.copyright {
+    margin: 0 auto;
+    width: 100;
+    height: 25px;
+    background-color: #f5f5f5
+}
+
+.copyright-p {
+    margin: 0 auto;
+    text-align: center;
+    color: #445162;
+}
