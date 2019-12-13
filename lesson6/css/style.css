@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1920px;
+    height: 1024px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.main-header {
+    width: 100%;
+    min-height: 1028px;
+    box-sizing: border-box;
+    background-image: url(../image/header_fone.png)
+}
